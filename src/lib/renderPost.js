@@ -344,18 +344,18 @@ export async function renderPostToCanvas(values, closed) {
     ctx.lineTo(-stampW / 2, -stampH / 2 + r2);
     ctx.arcTo(-stampW / 2, -stampH / 2, -stampW / 2 + r2, -stampH / 2, r2);
     ctx.closePath();
-    ctx.fillStyle = 'rgba(45, 179, 154, 0.10)';
+    ctx.fillStyle = 'rgba(217, 54, 54, 0.10)';
     ctx.fill();
     ctx.lineWidth = 9;
-    ctx.strokeStyle = '#2DB39A';
-    ctx.shadowColor = 'rgba(45, 179, 154, 0.5)';
+    ctx.strokeStyle = '#D93636';
+    ctx.shadowColor = 'rgba(217, 54, 54, 0.5)';
     ctx.shadowBlur = 40;
     ctx.stroke();
     ctx.shadowColor = 'transparent';
     ctx.shadowBlur = 0;
 
     // Stamp text
-    ctx.fillStyle = '#2DB39A';
+    ctx.fillStyle = '#D93636';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     try { ctx.letterSpacing = '14px'; } catch (e) {}
